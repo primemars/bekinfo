@@ -1,0 +1,16 @@
+A {
+	COLOR: #0000ff; TEXT-DECORATION: none; TEXT-TRANSFORM: none
+}
+A:hover {
+	COLOR: ff0000; TEXT-DECORATION: underline
+}
+BODY {
+	FONT-SIZE: 9pt; LINE-HEIGHT: 150%
+}
+TH {
+	FONT-SIZE: 9pt; LINE-HEIGHT: 150%
+}
+TD {
+	FONT-SIZE: 9pt; LINE-HEIGHT: 150%
+}
+.p1 	{FONT-FAMILY: ËÎÌו; FONT-SIZE: 9pt; LINE-HEIGHT: 14pt}
