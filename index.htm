@@ -5,15 +5,27 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>BeKing&Company - 上海宝今咨询公司</title>
 
-    <link href="main.css" type="text/css" rel="stylesheet">
-    <link href="base.css" type="text/css" rel="stylesheet">
+    <link href="css/base.css" type="text/css" rel="stylesheet">
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+    <link href="css/slideshow.css" type="text/css" rel="stylesheet">
+
 
     <style type="text/css">
       html {background:grey}
     </style>
 
-    <script language="Javascript">
+    <script language="Javascript" type="text/javascript" src="js/jquery.min.js"></script>
+    <script language="Javascript" type="text/javascript" src="js/slides.min.jquery.js"></script>
 
+    <script language="Javascript">
+      jQuery(function() {
+        jQuery('#slides').slides( {
+            preload:true,
+            play:5000,
+      
+            hoverPause: true
+        });
+      });
     </script>
 
   </head>
@@ -41,7 +53,7 @@
 
     <table cellspacing="0" cellpadding="0" width="100%" border="0">
       <tbody>
-	<tr background="file:///D:/locations/chinasimplified/images/banner_bg_tile_big.gif">
+	<tr>
 	  <td><img height="1" alt="" src="./index_files/spacer.gif" width="149" border="0"></td>
 	  <td><img height="1" alt="" src="./index_files/spacer.gif" width="35" border="0"></td>
 	  <td width="589"><img height="1" alt="" src="./index_files/spacer.gif" width="369" border="0"></td>
@@ -243,7 +255,7 @@
                     <tbody>
                       <tr>
 			<td valign="top" align="left" width="360" height="100%">
-                          <table height="597%" cellspacing="0" cellpadding="0" width="360" border="0">
+                          <table cellspacing="0" cellpadding="0" width="360" border="0">
                             <tbody>
                               <tr>
 				<td height="17" colspan="3" valign="top"><img height="19" alt="来自宝今咨询大中华地区的最新消息" src="./index_files/title_home.JPG" width="356" border="0"></td>
@@ -251,7 +263,18 @@
                               <tr>
 				<td height="8" colspan="3" valign="top"><img height="8" src="./index_files/dendrite.gif" border="0"></td></tr>
                               <tr>
-				<td height="100" colspan="3" align="left" valign="top"><img height="164" alt="崛起的中国船舶市场" src="./index_files/home_thumb_SC_luxury_report.jpg" width="386" border="0"></td>
+				<td  colspan="3" align="left" valign="top">
+				  <div id="slides">
+				    <div class="slides_container">
+				      <div>
+					<img  alt="崛起的中国船舶市场" src="./img/wind.jpg">
+				      </div>
+				      <div>
+					<img  alt="崛起的中国船舶市场" src="./img/ship.jpg" >
+				      </div>
+				    </div>
+				  </div>
+				</td>
                               </tr>
                               <tr>
 				<td height="5" colspan="3" valign="top"><img height="5" src="./index_files/dendrite.gif" border="0"></td></tr>
@@ -462,13 +485,13 @@
 	  Company&nbsp;&nbsp;</span>
 
       </td>
-</tr></tbody></table>
-
-<!--百度推广统计-->
-<script type="text/javascript">
-  var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-  document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fe45717531703f4d4728855db314b7f3b' type='text/javascript'%3E%3C/script%3E"));
-</script>
-
-</body>
-</html>
+</tr></tbody></table>
+
+<!--百度推广统计-->
+<script type="text/javascript">
+  var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+  document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fe45717531703f4d4728855db314b7f3b' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+</body>
+</html>
