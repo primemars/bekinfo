@@ -1,13 +1,12 @@
-o/*
+/*
   Pagination
 */
 .pagination {
-    margin:26px auto 0;
-    width:100px;
+    width:360px;
 }
 
 .pagination li {
-    float:left;
+    float:right;
     margin:0 1px;
     list-style:none;
 }
@@ -19,7 +18,7 @@ o/*
     padding-top:12px;
     background-image:url(../img/pagination.png);
     background-position:0 0;
-    float:left;
+    float:right;
     overflow:hidden;
 }
 
